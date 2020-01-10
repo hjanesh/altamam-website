@@ -172,7 +172,7 @@ blockquote cite 						{ display:block; font-size:12px;}
 blockquote cite:before 					{ content:"\2014 \0020"; }
 blockquote cite a,
 blockquote cite a:visited,
-blockquote cite a:visited 				{ color:#555; }
+blockquote cite a:visited 				{ color:rgb(0, 0, 0); }
 
 ul, ol {
 	font-size: 1em; /* 16px */
@@ -384,7 +384,7 @@ header .logo {
 	position: relative;
 	margin-bottom: 0px;
 	text-align: center;
-	line-height: 1;
+	line-height: 1.5;
 	color:#fff;
 }
 #main-flexslider.flexslider {
@@ -476,7 +476,7 @@ section.spacer {
 }
 
 .spacer.green,.section.green {
-	background:#1bac91;
+	background:#0471a3;
 }
 
 .spacer.green,.section.green h4 {
@@ -487,7 +487,7 @@ section.spacer {
 	background:#6a9ad0;
 }
 .spacer.orange,.section.orange {
-	background:#f36f36;
+	background:#740a50;
 }
 
 section.spacer.bg2 {
@@ -510,7 +510,7 @@ section.spacer blockquote.large:before {
 }
 
 section.spacer blockquote cite {
-	color:#555;
+	color:rgb(0, 0, 0);
 }
 
 
@@ -755,7 +755,7 @@ section#services .service-box h2 {
 }
 
 section#services.section.orange .service-box:hover {
-	background:#f36518;
+	background:#7510b8;
 }
 
 
@@ -890,7 +890,7 @@ section#about {
 /* Contact Form */
 
 .validation {
-    color: red;
+    color: rgb(255, 187, 0);
     display:none;
     margin: 0 0 20px;
     font-weight:400;
